@@ -1,0 +1,25 @@
+using System.Text.Json.Serialization;
+
+namespace DaiLyService.Models.DTOs
+{
+    public class DaiLyDTO
+    {
+        public int MaDaiLy { get; set; }
+        public int MaTaiKhoan { get; set; }
+        public string TenDaiLy { get; set; } = string.Empty;
+        public string DiaChi { get; set; } = string.Empty;
+        public string SoDienThoai { get; set; } = string.Empty;
+        [JsonPropertyName("facebook")]
+        public string? Facebook { get; set; }
+
+        [JsonPropertyName("tiktok")]
+        public string? TikTok { get; set; }
+
+        public string? AnhDaiDien { get; set; }
+        
+        // Thông tin từ bảng TaiKhoan
+        public string? TenDangNhap { get; set; }
+        public string? Email { get; set; }
+        public DateTime? NgayTao { get; set; }
+    }
+}
