@@ -274,8 +274,8 @@ INSERT INTO TaiKhoan (TenDangNhap, MatKhau, Email, LoaiTaiKhoan, TrangThai, Ngay
 
 -- 2. ADMIN
 INSERT INTO Admin (MaTaiKhoan, HoTen) VALUES
-(1, N'Nguyễn Duy Thuấn'),
-(2, N'Nguyễn Duy Thuấnn');
+(1, N'Dao Duy Huy'),
+(2, N'Dao Duy Huy');
 
 -- 3. NÔNG DÂN
 INSERT INTO NongDan (MaTaiKhoan, HoTen, SoDienThoai, DiaChi) VALUES
